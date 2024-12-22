@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/ms2")
+@RequestMapping("/ms1")
 public class MainController {
 	@GetMapping("/main")
 	public String mainP() {
